@@ -32,6 +32,7 @@ result5 = result3 and result4
 x = 10
 y = x + 5
 x += y
+<<<<<<< HEAD
 print(x) # 输出：25
 
 
@@ -64,3 +65,6 @@ print(y)
 y += " World!"
 print(y)
 print(x, y)
+=======
+print(x) # 输出：25
+>>>>>>> 4015d20a94f454e3d38761c5ad1e577f0be3e1a4
