@@ -48,3 +48,17 @@ print(type(list1)) # 输出：<class 'list'>
 print(type(tuple1)) # 输出：<class 'tuple'>
 print(type(dict1)) # 输出：<class 'dict'>
 print(type(bool1)) # 输出：<class 'bool'>
+
+
+
+# 第一课课后练习
+
+my_name  = "John"
+my_age   = 36
+favourite_food = "Pizza"
+my_list = ["apple", "banana", "cherry"]
+my_tuple = ("apple", "banana", "cherry")
+my_dict = {"name": "John", "age": 36, "food": "Pizza"}
+is_student = False
+
+print(f"名称：{my_name},年龄：{my_age},最喜欢的水果：{favourite_food},五个最喜欢的食物：{my_list},家庭成员：{my_tuple},个人信息：{my_dict},是否是学生：{is_student}")
