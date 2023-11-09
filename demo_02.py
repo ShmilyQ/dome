@@ -33,3 +33,34 @@ x = 10
 y = x + 5
 x += y
 print(x) # 输出：25
+
+
+
+# 第二课练习题：
+
+# 使用加法、减法、乘法、除法运算符分别计算以下表达式的值：
+# 5 + 3 * 2 - 4 * 3 * 2 * 2 / 5
+
+print(5 + 3 * 2 - 4 * 3 * 2 * 2 / 5)
+
+# 使用比较运算符判断以下表达式的结果是否为真：
+# 3 == 3 * "apple" != "banana" * "orange" > "lemon"
+
+print(3 == 3 * "apple"!= "banana" * "orange" > "lemon")
+
+# 使用逻辑运算符组合上述比较表达式，形成复合表达式，如(3 == 3) and ("apple" != "banana")，并打印出结果。
+
+print((3 == 3) and ("apple"!= "banana") or "orange" > "lemon")
+
+# 使用赋值运算符给变量赋值并输出结果：
+# x = 5; x += 3 * y = "Hello"; y += " World!"
+
+x = 5
+print(x)
+x += 3
+print(x)
+y = "Hello"
+print(y)
+y += " World!"
+print(y)
+print(x, y)
