@@ -1,0 +1,120 @@
+
+Python基础学习计划目录
+
+第1课：Python简介
+- Python历史
+- Python的应用
+- 安装Python和IDE（如PyCharm或VSCode）
+
+第2课：基础概念
+- 解释器
+- 变量与数据类型（整数、浮点数、字符串）
+- 基本运算符
+
+第3课：控制流
+- if语句
+- 循环（for和while）
+- 基本的输入输出函数(input, print)
+
+第4课：数据结构
+- 列表
+- 元组
+- 字典
+- 集合
+
+第5课：函数
+- 定义函数
+- 参数与返回值
+- 文档字符串（docstrings）
+- 作用域
+
+第6课：模块和包
+- 导入标准库模块
+- 安装和使用第三方包
+- 创建自己的模块
+
+第7课：异常处理
+- 错误类型
+- try和except块
+- 清理资源（finally）
+
+第8课：面向对象编程
+- 类和对象
+- 属性和方法
+- 继承和多态
+- 魔术方法（如__init__）
+
+第9课：文件操作
+- 读取和写入文件
+- 文件对象的方法
+- 使用with语句
+
+第10课：标准库概览
+- datetime
+- collections
+- json
+- os
+- random
+
+第11课：虚拟环境
+- 创建和管理虚拟环境
+- venv和pip
+
+第12课：综合项目
+- 综合所学知识
+- 项目规划和执行
+- 调试
+
+
+
+Python-web开发学习路线
+
+第1阶段：HTML/CSS
+- HTML基础
+- CSS基础
+- 响应式设计
+
+第2阶段：JavaScript
+- JavaScript基础
+- DOM操作
+- 事件处理
+
+第3阶段：Python与Web编程基础
+- Python CGI介绍
+- Flask框架入门
+- Django框架入门
+
+第4阶段：数据库知识
+- SQL基础
+- 使用Python操作数据库
+- ORM（如Django ORM）
+
+第5阶段：前端框架
+- React或Vue基础
+- 前后端分离的概念
+- RESTful API设计
+
+第6阶段：用户认证与权限
+- Session与Cookie
+- 使用JWT进行身份验证
+- OAuth协议
+
+第7阶段：部署与维护
+- 使用Docker容器化应用
+- Nginx与uWSGI配置
+- 云服务（如AWS）部署
+
+第8阶段：测试与优化
+- 单元测试
+- 性能测试
+- 代码审查与重构
+
+第9阶段：安全性
+- Web安全概念
+- 防止常见攻击（如XSS和CSRF）
+- HTTPS和SSL证书
+
+第10阶段：高级主题
+- 微服务架构
+- 异步编程和Celery
+- WebSocket通信
