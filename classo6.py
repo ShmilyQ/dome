@@ -41,9 +41,33 @@ Copy code
 import mymodule
 
 mymodule.greeting('Alice')  # 输出 "Hello, Alice"
-课后练习题
-尝试导入Python的random模块，并使用它生成一个随机数。
-安装第三方包（如果你的环境允许），例如requests，并试着发送一个GET请求到一个网站。
-创建自己的模块，包含一些函数，然后在另一个文件中导入并使用这些函数。
-通过完成这些练习，你将学会如何利用模块来组织代码，以及如何使用标准库和第三方库来扩展Python的功能。模块和包是Python编程中非常重要的组成部分，它们使得代码更加模块化和可重用。
+
 '''
+
+# 课后练习题
+# 尝试导入Python的random模块，并使用它生成一个随机数。
+
+import random
+
+num = random.randint(1,10)
+
+print(num)
+
+# 安装第三方包（如果你的环境允许），例如requests，并试着发送一个GET请求到一个网站。
+
+import requests
+
+reques = requests.get("http://www.baidu.com")
+
+print(reques)
+print(reques.text)
+
+# 创建自己的模块，包含一些函数，然后在另一个文件中导入并使用这些函数。
+
+import myName
+
+myName.module("Jack")
+
+# 通过完成这些练习，你将学会如何利用模块来组织代码，以及如何使用标准库和第三方库来扩展Python的功能。模块和包是Python编程中非常重要的组成部分，它们使得代码更加模块化和可重用。
+
+
